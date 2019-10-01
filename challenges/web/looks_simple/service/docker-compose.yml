@@ -1,0 +1,29 @@
+version: '3'
+services:
+  db:
+    restart: always
+    container_name: 'chal-1-db'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    build:
+      context: ./database
+    volumes:
+      - postgresql_data:/var/lib/postgresql/data
+  web:
+    restart: always
+    container_name: 'chal-1-web'
+    build: ./web
+    environment:
+      - HOST=https://challenge.network
+      - LOCAL_IP=0.0.0.0
+    ports:
+      - "10000:8000"
+  selenium:
+    restart: always
+    container_name: 'chal-1-selenium'
+    image: 'selenium/standalone-chrome'
+    volumes:
+      - /dev/shm:/dev/shm
+volumes:
+  postgresql_data:

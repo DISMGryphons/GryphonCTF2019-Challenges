@@ -1,0 +1,42 @@
+{% extends "authenticated/base.html" %}
+{% block title %}
+{% if post %}
+{{ post.get('title') | safe }} - Lalaland
+{% else %}
+{{ code }} - Lalaland
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<section class="masthead page-section bg-primary text-white mb-0" id="post">
+    <div class="container">
+
+        <!-- Post Section Heading -->
+        {% if post %}
+        <h2 class="page-section-heading text-center text-uppercase">{{ post.get('title') | safe }}</h2>
+        {% else %}
+        <h2 class="page-section-heading text-center text-uppercase">{{ code }}</h2>
+        {% endif %}
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Post Section Content -->
+        <div class="row">
+            <div class="col-lg-12">
+                {% if post %}
+                <p>{{ post.get('content') | safe }}</p>
+                {% else %}
+                <p>Error...</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

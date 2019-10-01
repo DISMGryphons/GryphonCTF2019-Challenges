@@ -1,0 +1,67 @@
+{% extends "authenticated/base.html" %}
+{% block title %}
+Home - Lalaland
+{% endblock %}
+
+{% block content %}
+{% if not posts %}
+<section class="masthead page-section bg-primary text-white mb-0" id="post-0">
+    <div class="container">
+        <!-- Post Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase">No posts found...</h2>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Create the first post!</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+{% for post in posts %}
+{% if post.get('index') ==  0 %}
+<section class="masthead page-section bg-primary text-white mb-0" id="post-0">
+{% else %}
+    {% if (post.get('index') % 2) == 0 %}
+    <section class="page-section bg-primary text-white mb-0" id="post-{{ post.get('index') }}">
+    {% else %}
+    <section class="page-section mb-0" id="post-{{ post.get('index') }}">
+    {% endif %}
+{% endif %}
+    <div class="container">
+
+        <!-- Post Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase">{{ post.get('title') | safe }}</h2>
+
+        <!-- Icon Divider -->
+        {% if (post.get('index') % 2) == 0 %}
+        <div class="divider-custom divider-light">
+        {% else %}
+        <div class="divider-custom">
+        {% endif %}
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Post Section Content -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>{{ post.get('content') | safe }}</p>
+                <p class="lead"><a {% if (post.get('index') % 2) == 0 %} class="text-white" {% endif %} href="/post/{{ post.get('id') }}">LINK TO POST</a></p>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endfor %}
+{% endblock %}

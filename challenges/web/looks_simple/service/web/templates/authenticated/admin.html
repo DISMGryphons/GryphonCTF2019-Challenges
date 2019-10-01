@@ -1,0 +1,34 @@
+{% extends "authenticated/base.html" %}
+{% block title %}
+Admin - Lalaland
+{% endblock %}
+
+{% block content %}
+<section class="masthead page-section" id="new-post">
+    <div class="container">
+        <!-- Profile Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Renderer</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-pencil-alt"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <form action="{{ url_for('admin') }}" method="POST">
+            <input type="hidden" name="csrfToken" value="{{ session.get('csrf_token') }}">
+            <input type="hidden" name="url" value="{{ HOST }}/home">
+            <div class="form-group text-center mb-3">
+                <button type="submit" class="btn btn-primary btn-xl">Go!</button>
+            </div>
+        </form>
+        <div class="embed-responsive embed-responsive-4by3 col-4 text-center m-auto">
+            <iframe class="embed-responsive-item" srcdoc="
+            {{ rendered }}">    
+            </iframe>
+        </div>
+    </div>
+</section>
+{% endblock %}
