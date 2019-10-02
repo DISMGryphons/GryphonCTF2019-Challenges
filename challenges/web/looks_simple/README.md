@@ -1,6 +1,6 @@
-# Challenge Name
+# Looks Simple
 
-## Looks Simple
+## Question Text
 
 This web application looks interesting ;)
 
