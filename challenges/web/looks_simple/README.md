@@ -4,10 +4,7 @@
 
 This web application looks interesting ;)
 
-<b>Database Information</b>  
-*Backend:* PostgreSQL  
-*Schema:* looks_simple  
-*Tables:* users, posts
+*The backend uses PostgreSQL*
 
 *Creator - @Jonoans*
 
