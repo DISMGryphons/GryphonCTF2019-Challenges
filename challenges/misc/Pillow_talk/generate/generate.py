@@ -25,12 +25,8 @@ def get_dimensions(string):
         for i in range(math.ceil(sqrt_length), 1, -1):
             area = string_length
             if area%i == 0:
-                if area/i > i:
-                    width = int(area/i)
-                    height = i
-                else:
-                    width = i
-                    height = int(area/i)
+                width = i
+                height = int(area/i)
                 break
     return width, height
 
