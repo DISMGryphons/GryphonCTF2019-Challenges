@@ -1,0 +1,9 @@
+Challenge 1 - Paste Those Binomials 
+
+Description: A piece of note attached with YApcbwY2 was found on the side of a laptop. Try recovering the flag and unlock more clues to found the treasure. Flag is in GCTF{....} format.
+
+Pastebin challenge. 
+Flag in hexadecimal form 
+Reverse the string
+
+Hint #1 - Visit the website pastebin.com.
