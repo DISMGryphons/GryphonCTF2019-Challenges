@@ -1,0 +1,9 @@
+The playfair cipher is a digraph substitution cipher. It employs a table where one letter of the alphabet is omitted, and the letters are arranged in a 5x5 grid. Encoded messages are broken down into two-letter chunks, and are swapped according to the grid. Repeated letters in the same chunk are usually separated by an X.
+Now, you have decoded this riddle, but the goose still has the flag. To proceed, head to riddle 2.
+
+The goose left this riddle:
+
+The goose is flying away now.
+This situation is 'les terrible'.
+It seems it's going to France to hide,
+It's using le 'chiffre indéchiffrable'X
