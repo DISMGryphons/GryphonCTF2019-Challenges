@@ -7,8 +7,8 @@
 - cat.jpg
 - SHA1: CF6F0343B001F405AA61102DF5F936BC32D0BEEC
 ## Solution
-Use steghide. steghide extract -sf cat.jpg
-when asked for the passphrase, use unlock
+Use steghide. `steghide extract -sf cat.jpg`
+when asked for the passphrase, use `unlock`
 you will receive a zip file. 
 Navigate the zip file till you find a pdf name cat.pdf.
 Retrieve it and you can view it. Use a hex editor to carve out a PNG image of the flag from the PDF.
