@@ -1,0 +1,13 @@
+Misc Challenge: Paste Those Binomials
+
+Description: A piece of note attached with YApcbwY2 was found on the side of a laptop. Try recovering the flag and unlock more clues to found the treasure. The flag is in GCTF{....} format.
+
+Hint #1 - Visit the website pastebin.com.
+
+Solution:
+Firstly, visit this website: https://pastebin.com/YApcbwY2.
+Secondly, visit any website that has the hex to string converter. Example: https://codebeautify.org/hex-string-converter
+Lastly, visit any website that can reverse the text and you will successfully solve this challenge.
+Example: https://www.textreverse.com/
+
+Flag: GCTF{p@Ste_B1n4ry_aNd_hEx_c0rreCt!y}
