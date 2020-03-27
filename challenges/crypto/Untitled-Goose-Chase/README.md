@@ -16,7 +16,7 @@ Creator - @piconjoz
 4.  Run riddle 2 text into a vigenère decoder with the key 'loose', and run it through a playfair decoder with 'loose' as the key as well. Now we will get the hint to solve riddle 3.
 5.  The additional cipher stated in riddle 2 is the classic Caesar cipher. To solve riddle 3, we need to use what we know from previous the riddles.
 6.  We need to get the keys for each cipher. From the drawing, we know that Caesar cipher will use 7, and vigenère will use 'honk' (The recurring sound the goose is shown to make). To get the last key, we also need to inspect the properties of image to get the hint '2=3'. From that, we know that playfair also uses the key 'honk'.
-7.  Using the drawing on the flag, put riddle 3 text into each of the ciphers accordingly; Caesar, vigenère and playfair with each corresponding key. </br>
+7.  Referencing the drawing on the flag, put riddle 3 text into each of the ciphers accordingly; Caesar, vigenère and playfair with each corresponding key. </br>
 
 ### Flag
 > $GCTF{pl4yf41r_v163n3re_c43s4r_y0u_w4573d_y0ur_71m3_7h4nk5_go05e}
