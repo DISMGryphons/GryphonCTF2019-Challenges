@@ -5,7 +5,7 @@ Is this just a plain gif file or is there more than what it seems?
 <br>
 
 ### Hints (Optional)
-1. what's the name of these event? would be able to show the hidden image </br>
+1. what's the flag format in lowercase? leave only characters </br>
 
 ## Solution
 1) A password protected Microsoft word file is hidden within a image of a dog
