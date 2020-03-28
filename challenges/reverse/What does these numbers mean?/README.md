@@ -2,8 +2,10 @@
 
 ## Question Text
 What are all these random numbers that this program is spitting out?
->Place the answer into the following GCTF{}
-Creator - junwei </br>
+<hr>
+Place the answer into the following GCTF{}
+<hr>
+<br><br>
 
 ### Hints (Optional)
 1. ascii is key
