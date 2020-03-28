@@ -6,4 +6,4 @@
 5. Merge all the images into a QR code
 6. Download and open the mp3 file with sonic visualiser to view the flag
 ## FLAG
-> GCTF{K0MPL3X}
+> $GCTF{K0MPL3X}
