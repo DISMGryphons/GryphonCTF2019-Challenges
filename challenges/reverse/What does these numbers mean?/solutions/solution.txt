@@ -1,0 +1,15 @@
+Option 1:
+we would provide a hint to the key
+user has to spam the key into the program and retrieve out the 4 parts of the hashed flag
+the programs spits on a string of ascii dec
+so end user has to manually use a ascii table to convert the character one at a time
+once all 4 of the ascii strings has been converted to the hash format
+user now has to placed the MD5 hash in the correct sequence and go to a online md5 hash decrypt “compare hash”
+e.g. https://www.md5online.org/md5-decrypt.html
+Flag would be retrieved.
+
+Option 2:
+User use jad to decompile the java class file
+when the user views the jad file the code would be shown
+user would be able to see the hashed ascii
+he would still be required to manually match the letters to a ascii table and put the hash into a md5 hash decryptor to retrieve it.
