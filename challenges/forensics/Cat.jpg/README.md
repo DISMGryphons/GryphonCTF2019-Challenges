@@ -1,5 +1,9 @@
 # Cat.jpg
-## I discovered a cat and it handled me a note: It says to use steghide to extract and a key was given: unlock. I can use this key to find more clues...
+## Question Text
+
+I discovered a cat and it handled me a note: It says to use steghide to extract and a key was given: unlock. I can use this key to find more clues...
+
+Creator - @G
 
 **Hint**
 1. The cat passed me another note, it says hex editor and file signature.
