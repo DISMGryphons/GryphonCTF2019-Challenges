@@ -2,19 +2,28 @@
 
 ## Question Text
 What are all these random numbers that this program is spitting out?
-Creator - ninjassword </br>
+>Place the answer into the following GCTF{}
+Creator - junwei </br>
 
 ### Hints (Optional)
 1. ascii is key
 
 ## Solution
-1. Control F for "GCTF{"
-2. Inside the fake flag, there is a string, use base64 decode to bring you to the pastebin of https://pastebin.com/TAVE5J94
-3. Craft a suitable regex string to capture the strings as required by the challenge. One example is:(?<=Z)([B-D])([I-K]).?\D?\d{3,5}\D?.?\2\1(?!A)
-4. Collect these strings in the order by which they appear in the challenge text.
-5. Once done head over to the twitter link provided in the pastebin.
-6. For each matched string, convert them to ascii values. Then take the sum of these values and look at the last three digits.
-These three digits will then be used to convert back into characters by referencing the ascii table.
+Option 1:
+1) we would provide a hint to the key
+2) user has to spam the key into the program and retrieve out the 4 parts of the hashed flag
+3) the programs spits on a string of ascii dec, so end user has to manually use a ascii table to convert the character one at a time
+4) once all 4 of the ascii strings has been converted to the hash format
+5) user now has to placed the MD5 hash in the correct sequence and go to a online md5 hash decrypt “compare hash”
+e.g. https://www.md5online.org/md5-decrypt.html
+Flag would be retrieved.
+
+Option 2:
+1) User use jad to decompile the java class file
+2) when the user views the jad file the code would be shown
+3) user would be able to see the hashed ascii
+4) he would still be required to manually match the letters to a ascii table and put the hash into a md5 hash decryptor to retrieve it.
+
 
 ### Flag
- GCTF{FLaG-4-RG}
+ GCTF{y0u6oTm3}
