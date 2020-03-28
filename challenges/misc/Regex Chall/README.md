@@ -2,7 +2,7 @@
 
 ## Question Text
 Being greedy for the flag might help here. </br></br>
-Creator - @SugoiBoiBoi69 </br>
+Creator - ninjassword </br>
 
 ### Hints (Optional)
 1. Before crossing the road, what do you do? </br>
