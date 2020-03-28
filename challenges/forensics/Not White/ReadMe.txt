@@ -1,0 +1,3 @@
+I was given an image that was suppose to be the message but i think i accidentally made it dissapear oops...
+
+Please help me find the hidden message.
