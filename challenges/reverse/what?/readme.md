@@ -475,6 +475,7 @@ My friend send me an app that contains a message but i could'nt seem to find it.
 
 17. If everything goes right, run the quiz once again you  will get this screen which shows you the flag:
 
+<img src="https://github.com/K0p1-Git/GryphonCTF2019-Challenges/blob/What/challenges/reverse/what%3F/solution/Screenshot_1585276005.png" alt="Solution!" width="200px"/>
 
 
 ## Flag
