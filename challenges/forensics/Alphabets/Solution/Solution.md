@@ -11,7 +11,9 @@ Ignore everything that is between 20-29 also read the numbers from the left to t
 
 ## Distribution
 -A file "Alphabets"
+
   SHA1:3fbd1f0e9bcc5d7b7d0ef94bd905f4ac50f2c474
+  
 -ReadMe.txt
 
 ## Solution:
