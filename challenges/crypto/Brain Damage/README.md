@@ -5,8 +5,8 @@
 I had a stroke.
 This is another paragraph.
 
-*Creator - @melo*
-
+*Creator*
+Incursi0n
 ### Hints (Optional)
 1. My BRAIN hurts.
 2. What rhymes with duck?
