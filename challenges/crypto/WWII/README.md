@@ -4,8 +4,8 @@ WWII (Hard)
 World of morse
 Challenge description and how to play (if applicable).
 
-*Creator - @YourNickname (or real name)*
-Incursi0n
+*Creator - @Incursi0n*
+
 ### Hints (Optional)
 1. Hint 1
 Hardest Language?
