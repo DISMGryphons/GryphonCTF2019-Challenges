@@ -4,6 +4,9 @@
 My friend send me an app that contains a message but i could'nt seem to find it. Can you help me find?
 
 ## Hints
+How to decompile APK file?
+
+(https://stackoverflow.com/questions/3593420/is-there-a-way-to-get-the-source-code-from-an-apk-file)
 
 ## Distribution
 * Learn Math.apk
