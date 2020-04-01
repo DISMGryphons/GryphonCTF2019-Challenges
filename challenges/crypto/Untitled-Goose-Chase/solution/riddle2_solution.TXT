@@ -1,0 +1,9 @@
+The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It employs a form of polyalphabetic substitution. Using the Tabula Recta, one is able form complex ciphertext(for its time) by using a keyword that is repeated over the plaintext message.
+Amazing. The goose in almost within reach. Go to the third image to solve the last riddle.
+
+Here's what the goose left this time:
+
+Et tu brute?
+says the goose.
+7 steps to the left,
+is all you need to end this riddle abuse.
