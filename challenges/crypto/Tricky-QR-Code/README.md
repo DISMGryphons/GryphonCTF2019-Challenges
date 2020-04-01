@@ -2,13 +2,13 @@
 
 ## Question Text
 
-Hey friends... a QR code was attached at the back of a gold coin, perhaps we are able to get some leads by solving this challenge.
+Hey friends... a QR code was attached at the back of a gold coin, perhaps we need to decode some message to get some clues on the hidden treasure.
 
 Creator - @iRevivalx
 
 ### Hints (Optional)
 
-1. Decode the base64 string that is on the QR Code.
+1. Carefully observe what is shown on the QR Code.
 2. Julius Ceasar involved.
 
 ## Solution
