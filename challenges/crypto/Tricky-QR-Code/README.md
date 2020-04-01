@@ -2,7 +2,7 @@
 
 ## Question Text
 
-Hey friends... a QR code was attached at the back of a gold coin, perhaps we need to decode some message to get some clues on the hidden treasure.
+Hey friends... a QR code was attached at the back of a gold coin, perhaps we need to perform some decoding in order to get some clues on the hidden treasure.
 
 Creator - @iRevivalx
 
