@@ -1,12 +1,11 @@
 # Cat.jpg
 ## Question Text
 
-I discovered a cat and it handled me a note: It says to use steghide to extract and a key was given: unlock. I can use this key to find more clues...
+I discovered a cat and it handled me a note: It says to use a tool to extract and a key was given: unlock. I can use this key to find more clues... USE LINUX FOR THIS CHALLENGE.
 
-Creator - @G
 
 **Hint**
-1. The cat passed me another note, it says hex editor and file signature.
+1. The cat passed me another note, it says steghide and file signature.
 ## Distribution
 - cat.jpg
 - SHA1: CF6F0343B001F405AA61102DF5F936BC32D0BEEC
@@ -22,3 +21,5 @@ Retrieve it and you can view it. Use a hex editor to carve out a PNG image of th
 `GCTF{m30w_y0u_g0t_m3}`
 ## Recommended Reads
 https://www.garykessler.net/library/file_sigs.html
+
+http://steghide.sourceforge.net/index.php
