@@ -1,4 +1,4 @@
-# Flags?
+# Flag?
 ## Question Text
 
 Here is the flag
@@ -8,8 +8,8 @@ Creator - @G
 **Hint**
 1. These are flags used to communicate with ships.
 ## Distribution
-- flags.jpg
-- SHA1: F240855ABBEFBCB3D3767B55E927880B97C148CD
+- flag.jpg
+- SHA1: 1B658447BA9823FF3B73BAC6FB3422D3307B39E3
 ## Solution
 Each flag represents a letter or a number, match the flags to the respecting flags in the challenge
 to form the actual flag.
