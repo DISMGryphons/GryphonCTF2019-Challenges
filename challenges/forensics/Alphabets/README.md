@@ -4,7 +4,7 @@
 Just a bunch of gibberish but i do remember there should be a way to view it and there should be
 a pattern to get the code....
 
-Creator - Pinat
+Creator - Pinata
 
 ## Hints
 What happens if you start ignoring the numbers from 20-29
