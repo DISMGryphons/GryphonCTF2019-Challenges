@@ -14,6 +14,7 @@ Place the answer into the following GCTF{}
 Option 1:
 1) Key is provided via "hint" to enter into the flag.class program in which once the key has been entered into the program it would return back a random string from an array of 4. "array[3]". 
 e.g. "68, 69, 70, 80, 90" these string has a meaning, in which these string are ascii dec codes.
+KEY: gryphons2020
 2) Once all 4 parts of the strings has been retrieved, user has to arrange the strings in the correct order
 3) Convert the ascii numbers into characters and user would get something like the following
 e.g. "68, 69, 69, 68" would be converted to "D, E, E, D"
