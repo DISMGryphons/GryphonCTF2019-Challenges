@@ -8,7 +8,7 @@ Place the answer into the following GCTF{}
 <br><br>
 
 ### Hints (Optional)
-1. ascii is key
+1. gryphons2020 is key
 
 ## Solution
 Option 1:
