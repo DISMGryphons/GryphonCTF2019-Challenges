@@ -1,3 +1,0 @@
-# Misc
-
-## Challenges
