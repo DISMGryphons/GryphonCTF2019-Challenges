@@ -1,3 +1,3 @@
-# Programming
+# Misc
 
 ## Challenges
