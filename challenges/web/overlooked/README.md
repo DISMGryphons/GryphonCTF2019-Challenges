@@ -11,7 +11,7 @@ After the shenanigans with the debugger, it is now inaccessible. However, we mad
 2. `bash build.sh`
 
 ## Solution
-1. Download `accounts.db` from the url
+1. Download `users.db` from the url
 2. Reverse the md5 hash of the password for the user admin. You should get `permissions`
 3. Login using a `POST` request, relevant `User-Agent` and login credentials
 ```
